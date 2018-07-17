@@ -1,0 +1,31 @@
+package Level_2_Intermediate;
+
+public class BlackJack {
+
+	public static void main(String[] args) {
+		
+		
+	 int in1 = 	20;
+	 int in2 = 	18;
+	
+	System.out.println(BlackJack.blackjack(in1, in2));
+}
+
+	private static int blackjack(int in1, int in2) {
+
+		if(n1 > 21 && n2 > 21)
+			return 0;
+		if(n1 < 1 && n2 < 1)
+			return 0;
+		if(n1 > 21 && n2 <= 21 && n2 > 0)
+			return n2;
+		if(n2 > 21 && n1 <= 21 && n1 > 0)
+			return n1;
+		if(n1 > n2 && n1 <= 21 && n1 > 0)
+			return n1;
+		if(n2 > n1 && n2 <= 21 && n1 > 0)
+			return n2;
+	
+		return 0;
+	}
+}

@@ -1,0 +1,14 @@
+package Level_2_Intermediate;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		
+	Blackjackmain bj1 = new Blackjackmain();
+	 int in1 = 	20;
+	 int in2 = 	18;
+	
+	System.out.println(bb.blackjack(1, 5));
+	}
+}
+	

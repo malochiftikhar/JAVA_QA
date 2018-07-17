@@ -1,0 +1,11 @@
+package Level_2_Intermediate;
+
+public class BlackJack {
+
+	public static void main(String[] args) {
+		
+	private int in1 = 	20;
+	private int in2 = 	18;
+	
+	
+}

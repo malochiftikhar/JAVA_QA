@@ -1,0 +1,17 @@
+package Level_2_Intermediate;
+
+public class BlackJack {
+
+	public static void main(String[] args) {
+		
+	 int in1 = 	20;
+	 int in2 = 	18;
+	
+	System.out.println(blackjack(in1, in2));
+}
+
+	private static char[] blackjack(int in1, int in2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
