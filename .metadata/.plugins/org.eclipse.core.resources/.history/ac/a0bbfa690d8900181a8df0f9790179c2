@@ -1,0 +1,13 @@
+package Level_1_Basic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Parameters b1 = new Parameters();
+		System.out.println(b1.name("ifti"));
+		
+		Return_Types rt1 = new Return_Types();
+		System.out.println(rt1.hello());
+	}
+}

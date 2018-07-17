@@ -1,0 +1,11 @@
+package Level_1_Basic;
+
+public class Assignment {
+	
+	private String welcome = "Hello ifti!";
+	
+	public static void main(String[] args) {
+		
+		System.out.println(welcome);
+	}
+}

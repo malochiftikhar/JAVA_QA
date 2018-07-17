@@ -1,0 +1,11 @@
+package Level_1_Basic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Parameters b1 = new Parameters();
+		System.out.println(b1.name("ifti"));
+
+	}
+}

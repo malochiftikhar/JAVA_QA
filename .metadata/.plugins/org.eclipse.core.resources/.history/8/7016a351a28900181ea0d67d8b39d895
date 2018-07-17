@@ -1,0 +1,26 @@
+package Level_1_Basic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		/*
+		Parameters b1 = new Parameters();
+		System.out.println(b1.name("ifti"));
+		
+		Return_Types rt1 = new Return_Types();
+		System.out.println(rt1.hello());
+		
+		ParametersOperators po1 = new ParametersOperators();
+		System.out.println(po1.add(4, 5));
+		
+		Conditonals cond1 = new Conditonals();
+		System.out.println(cond1.addbol(2, 4, false));
+		*/
+		
+		Conditioanls2 cond2 = new Conditioanls2();
+		System.out.println(cond2.addbol(10, 1, true));
+
+	}
+}
