@@ -1,0 +1,12 @@
+package Level_2_Intermediate;
+
+public class TooHot {
+	public boolean isSummer (int temperature) {
+		
+		if (temperature >= 60 && temperature <= 90) {
+			return temperature;
+		}
+		else if (temperature )
+		return false;
+	}
+}
