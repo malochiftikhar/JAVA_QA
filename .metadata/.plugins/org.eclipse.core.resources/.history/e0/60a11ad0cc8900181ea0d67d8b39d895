@@ -1,0 +1,14 @@
+package Level_2_Intermediate;
+
+public class UniqueSum {
+	
+	public int sum (int one, int two, int three) {
+		if (one != two && two != three && three != one) {
+			total = one + two + three;
+			return total;
+		}
+		return 0;
+		
+	}
+
+}
