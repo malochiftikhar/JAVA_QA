@@ -17,10 +17,17 @@ public class Main {
 		
 		Conditonals cond1 = new Conditonals();
 		System.out.println(cond1.addbol(2, 4, false));
-		*/
 		
 		Conditioanls2 cond2 = new Conditioanls2();
-		System.out.println(cond2.addbol(10, 1, true));
-
+		System.out.println(cond2.addbol(0, 1, true));
+		
+		itteration it1 = new itteration();
+		it1.iter(1, 10, true); 
+		
+		IterationArrays iA = new IterationArrays();
+		iA.loofor();
+		
+		*/
+		
 	}
 }
