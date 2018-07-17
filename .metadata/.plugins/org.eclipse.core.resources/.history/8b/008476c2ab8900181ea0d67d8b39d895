@@ -1,0 +1,19 @@
+package Level_1_Basic;
+
+public class itteration {
+	Conditonals2 cond = new Conditonals2();
+	public void iter (int a, int b, boolean tf) {
+//		if (a == 0) {
+			for (int i = 0; i < 10; i++) {
+				System.out.println(cond.addbol(i, 5, true));
+			}
+//			return b;
+//		}if(b == 0) {
+//			return a;
+//		}if (tf) {
+//			return a + b;
+//		}else {
+//			return a*b;
+		}
+	}
+
